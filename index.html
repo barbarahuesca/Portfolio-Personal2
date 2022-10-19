@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>BH Portfolio Personal</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/BH/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#estudios" onclick="seleccionar(this)">ESTUDIOS</a></li>
+                            <li><a href="#experienciaLaboral" onclick="seleccionar(this)">EXPERIENCIA</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/barbara-huesca-p%C3%A9rez-83598a202/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Hi There!</p>
+                <h2 data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"> Soy<span> Barbara Huesca</span>, Estudiante y Trabajadora en el area de Sistemas</h2>
+                <p class="descripcion" data-aos="fade-up"
+     data-aos-duration="3000"> Bienvenido a mi portfolio personal </p>
+                <a href="#portfolio">Ir a Mis Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section data-aos="zoom-in-right"data-aos-easing="linear"
+     data-aos-duration="1000" id="sobremi" >
+        <div class="contenedor-foto">
+            <img src="img/foto cv.jpeg" alt="">
+        </div>
+        <div class="sobremi" >
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Barbara Huesca</span> </h2>
+            <h3> Futura Lic. en Sistemas y Desarrolladora Web </h3>
+            <p>Soy Barbara y tengo 21 años, me encuentro cursando el tercer año de la Licenciatura en Sistemas de la Informacion
+                en la facultad de Ciencias Economicas de la UBA, y al mismo tiempo realizando la carrera de desarrollo Front End en CoderHouse. </p>
+            <p>Actualmente me encuentro trabajando en SAP como Analista de Operaciones Financieras. SAP es una empresa pionera en el
+                 mundo de la tecnologia, desarrollando y vendiendo Software.
+            </p>
+            <a href="file:///C:/Users/I573771/Documents/personal/CV%20ACTUALIZADO-%20JUNIO%202022.pd ">Descargar CV</a>
+        </div>
+    </section>
+
+
+    <!-- SECCION C A R A C T E R I S T I C A S -->
+  <section id="caracteristicas">
+       <div>
+
+        <h2 class="izq" data-aos="fade-left" data-aos-easing="linear"
+        data-aos-duration="800"> DINAMICA </h2>
+        <h2 class="der" data-aos="fade-right" data-aos-easing="linear"
+        data-aos-duration="800"> ORDENADA Y PROLIJA</h2>
+        <h2 class="izq" data-aos="fade-left" data-aos-easing="linear"
+        data-aos-duration="800"> EFICIENTE Y EFICAZ</h2>
+        <h2 class="der" data-aos="fade-right" data-aos-easing="linear"
+        data-aos-duration="800"> PROACTIVA</h2>
+        <h2 class="izq" data-aos="fade-left" data-aos-easing="linear"
+        data-aos-duration="800"> TRABAJO EN EQUIPO</h2>
+        <h2 class="der" data-aos="fade-right" data-aos-easing="linear"
+        data-aos-duration="800"> RAPIDA EN APRENDIZAJE</h2>
+        <h2 class="izq" data-aos="fade-left" data-aos-easing="linear"
+        data-aos-duration="800">COMPROMISO LABORAL </h2>
+
+       </div>
+  </section>
+
+    <!-- SECCION E S T U D I O S -->
+    <section id="estudios">
+        <h3 class="titulo-seccion">MIS ESTUDIOS</h3>
+        <div class="fila">
+            <div class="servicio" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Bachiller en Economia y Administracion</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Colegio Bilingue</li>
+                </ul>
+                <p> Estudios secundarios en el Holter Schule Natur, colegio bilingue con orientacion a Economia, Administracion y Finanzas </p>
+            </div>
+            <div class="servicio" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Licenciatura en Sistemas de Informacion - UBA</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Sistemas</li>
+                    <li>Economia</li>
+
+                </ul>
+                <p>Cursando el Tercer Año de la Carrera. Diseño, planificacion, organizacion, coordinacion, administracion, direccion y control de los distintos aspectos 
+                    vinculados a los recursos informáticos conforme a la estrategia organizacional</p>
+            </div>
+            <div class="servicio" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Carrera - Desarrollo Front End en CoderHouse</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li>React Us</li>
+                </ul>
+                <p>Maquetado de pagina web con HTML, hoja de estilos con CSS. GIT, Github, Frameworks, librerias,
+                     SEO, diseño responsive. Lenguaje : Javascript.
+                    Proxima a comenzar a cursar React Us</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & CSS</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="Javascript"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Ingles Oral y Escrito</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ingles"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Sistema  SAP</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="sap"></div>
+            </div>
+            
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Paquete Office</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="paqof"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span> Metodologia Agil como marco de trabajo</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="agil"></div>
+            </div>
+        </div>
+    </div>
+<!-- SECCION E X P E R I E N C I A   L A B O R A L -->
+<section id="experienciaLaboral">
+    <h3 class="titulo-seccion">MI EXPERIENCIA LABORAL</h3>
+    <div class="fila">
+        <div class="servicio" data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000">
+            <span class="icono"> <i class="fa-solid fa-code"></i></span>
+            <h4>Data Entry - INDRA</h4>
+            
+            <ul class="servicios-tag">
+                <li>Jun - Sept 2021</li>
+            </ul>
+            <hr>
+            <p> Data Entry para las elecciones PASO 2021 en Argentina </p>
+        </div>
+        <div class="servicio" data-aos="zoom-in"
+        
+        data-aos-duration="3000">
+            <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+            <h4> Account Payable Analyst  Champion X </h4>
+            
+            <ul class="servicios-tag">
+                
+                <li>Feb 2021 / May 2022</li>
+                
+
+            </ul>
+            <hr>
+            <p>Analista y Procesadora para el equipo de Estados
+                Unidos.
+                Responsable de los onboardings para los nuevos
+                miembros del equipo
+                Responsable de trabajar con los proveedores mas
+                sensibles de la empresa
+                Uso y manejo de sistema SAP-produccion
+                </p>
+        </div>
+        <div class="servicio" data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="6000">
+            <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+            <h4>Finance Analyst Operations - SAP </h4>
+            
+            <ul class="servicios-tag">
+                <li>Jun 2022 to now</li>
+                
+            </ul>
+            <hr>
+            
+            <p>Analista para el Order to Invoice ´ Team. Area Administrativa</p>
+        </div>
+    </div>
+</section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="file:///C:/Users/I573771/Documents/BH.MAKEUP/Mi_Proyecto/index.html">
+                   <img src="img/bh.makeup.jpeg" alt="">
+               </a>
+                <div class="info">
+                    <h4>Maquetado Web - HTML & CSS</h4>
+                    <p>Diseño Responsive, Bootstrap, Git & Github. SEO</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://barbarahuesca.github.io/PruebasJS/">
+                    <img src="img/bh.agenda.jpeg" alt="">
+                </a>
+                <div class="info">
+                    <h4>Proyecto con Javascript al 100%</h4>
+                    <p>Arrays, Condicionales,Eventos,Librerias,Fetch,JSon</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame!</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Creado por Barbara Huesca - 2022</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/barbara-huesca-p%C3%A9rez-83598a202/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
