@@ -342,6 +342,7 @@
             line-height: 22px;
         }
 
+
         
         /* *********************/
         /* seccion E X P E R E N C I A   L A B O R A L */
@@ -700,7 +701,30 @@
         /* *********************/
         /* seccion R E S P O N S I V E */
         /* *********************/
-        
+        @media screen and (max-width:755px){
+            #estudios .fila{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                align-items: center;
+                justify-content: center;
+                margin-left: 17%;
+                
+                overflow: hidden;
+            }
+
+            #experienciaLaboral .fila{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                align-items: center;
+                justify-content: center;
+                margin-left: 17%;
+                
+                overflow: hidden;
+            }
+
+        }
         @media screen and (max-width: 800px) {
             .redes {
                 display: none;
