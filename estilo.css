@@ -729,15 +729,21 @@
                 overflow: hidden;
             }
 
-            /* #experienciaLaboral .fila .servicio {
+            #experienciaLaboral .fila .servicio {
                 margin-top: 30px;
             }
 
-            #caracteristicas .der .izq{
-                font-size: 2px;
-            } */
+            #caracteristicas h2{
+                font-size: 13px;
+                margin: 8px;
+            }
+
+            #portfolio .fila .proyecto{
+                width: 80%;
+            }
 
         }
+
         @media screen and (max-width: 800px) {
             .redes {
                 display: none;
