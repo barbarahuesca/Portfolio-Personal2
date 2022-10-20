@@ -729,9 +729,13 @@
                 overflow: hidden;
             }
 
-            #experienciaLaboral .fila .servicio {
+            /* #experienciaLaboral .fila .servicio {
                 margin-top: 30px;
             }
+
+            #caracteristicas .der .izq{
+                font-size: 2px;
+            } */
 
         }
         @media screen and (max-width: 800px) {
