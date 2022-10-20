@@ -702,26 +702,35 @@
         /* seccion R E S P O N S I V E */
         /* *********************/
         @media screen and (max-width:755px){
-            #estudios .fila{
+            #estudios .fila {
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 1fr 1fr;
-                align-items: center;
-                justify-content: center;
-                margin-left: 17%;
-                
+                /* align-items: center;
+                justify-content: center; */
+                margin-left: 15%;
+                margin-right: 15%;
                 overflow: hidden;
+                height: auto;
+            }
+
+            #estudios .fila .servicio{
+                margin-top: 30px;
             }
 
             #experienciaLaboral .fila{
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 1fr 1fr;
-                align-items: center;
-                justify-content: center;
-                margin-left: 17%;
-                
+                /* align-items: center;
+                justify-content: center; */
+                margin-left: 15%;
+                margin-right:15%;
                 overflow: hidden;
+            }
+
+            #experienciaLaboral .fila .servicio {
+                margin-top: 30px;
             }
 
         }
